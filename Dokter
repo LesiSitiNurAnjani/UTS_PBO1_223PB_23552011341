@@ -1,0 +1,22 @@
+// Dokter.java
+public class Dokter extends TenagaKesehatan {
+
+    public Dokter(String nama, String nomorRegistrasi, String spesialisasi) {
+        super(nama, nomorRegistrasi, spesialisasi);
+    }
+
+    @Override
+    public void jadwalPemeriksaan() {
+        System.out.println("Menjadwalkan pemeriksaan untuk dokter " + nama);
+    }
+
+    @Override
+    public void tambahPasien() {
+        System.out.println("Menambahkan pasien baru oleh dokter " + nama);
+    }
+
+    // Menambahkan metode khusus untuk Dokter
+    public void pemeriksaanDarah() {
+        System.out.println("Pemeriksaan darah dilakukan oleh " + nama);
+    }
+}
