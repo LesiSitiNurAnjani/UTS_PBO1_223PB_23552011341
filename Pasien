@@ -1,0 +1,43 @@
+// Pasien.java
+public class Pasien {
+    private String nama;
+    private String alamat;
+    private String riwayatPenyakit;
+
+    // Konstruktor
+    public Pasien(String nama, String alamat, String riwayatPenyakit) {
+        this.nama = nama;
+        this.alamat = alamat;
+        this.riwayatPenyakit = riwayatPenyakit;
+    }
+
+    // Getter dan Setter
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getRiwayatPenyakit() {
+        return riwayatPenyakit;
+    }
+
+    public void setRiwayatPenyakit(String riwayatPenyakit) {
+        this.riwayatPenyakit = riwayatPenyakit;
+    }
+
+    @Override
+    public String toString() {
+        return "Pasien: " + nama + ", Alamat: " + alamat + ", Riwayat Penyakit: " + riwayatPenyakit;
+    }
+}
