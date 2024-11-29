@@ -1,0 +1,22 @@
+// Perawat.java
+public class Perawat extends TenagaKesehatan {
+
+    public Perawat(String nama, String nomorRegistrasi, String spesialisasi) {
+        super(nama, nomorRegistrasi, spesialisasi);
+    }
+
+    @Override
+    public void jadwalPemeriksaan() {
+        System.out.println("Menjadwalkan pemeriksaan untuk perawat " + nama);
+    }
+
+    @Override
+    public void tambahPasien() {
+        System.out.println("Menambahkan pasien baru oleh perawat " + nama);
+    }
+
+    // Menambahkan metode khusus untuk Perawat
+    public void perawatanPasien() {
+        System.out.println("Perawatan pasien dilakukan oleh perawat " + nama);
+    }
+}
