@@ -1,0 +1,27 @@
+// SistemManajemenRumahSakit.java
+
+public class SistemManajemenRumahSakit {
+    public static void main(String[] args) {
+        // Membuat objek tenaga medis
+        Dokter dokter = new Dokter("Dr. Andi", "D123", "Dokter Umum");
+        Perawat perawat = new Perawat("Siti", "P456", "Perawat Umum");
+
+        // Menambahkan pasien
+        Pasien pasien1 = new Pasien("Budi", "Jl. Merdeka No.1", "Diabetes");
+        Pasien pasien2 = new Pasien("Ani", "Jl. Kebangsaan No.3", "Hipertensi");
+
+        // Menampilkan data pasien
+        System.out.println(pasien1);
+        System.out.println(pasien2);
+
+        // Menggunakan metode dari tenaga medis
+        dokter.jadwalPemeriksaan();
+        perawat.jadwalPemeriksaan();
+        dokter.tambahPasien();
+        perawat.tambahPasien();
+
+        // Polymorphism: Pemeriksaan berbeda meskipun menggunakan metode yang sama
+        dokter.pemeriksaanDarah();
+        perawat.perawatanPasien();
+    }
+}
