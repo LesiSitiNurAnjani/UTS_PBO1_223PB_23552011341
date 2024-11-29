@@ -1,0 +1,42 @@
+// TenagaKesehatan.java
+public abstract class TenagaKesehatan {
+    protected String nama;
+    protected String nomorRegistrasi;
+    protected String spesialisasi;
+
+    // Konstruktor
+    public TenagaKesehatan(String nama, String nomorRegistrasi, String spesialisasi) {
+        this.nama = nama;
+        this.nomorRegistrasi = nomorRegistrasi;
+        this.spesialisasi = spesialisasi;
+    }
+
+    // Metode abstrak
+    public abstract void jadwalPemeriksaan();
+    public abstract void tambahPasien();
+
+    // Getter dan Setter
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNomorRegistrasi() {
+        return nomorRegistrasi;
+    }
+
+    public void setNomorRegistrasi(String nomorRegistrasi) {
+        this.nomorRegistrasi = nomorRegistrasi;
+    }
+
+    public String getSpesialisasi() {
+        return spesialisasi;
+    }
+
+    public void setSpesialisasi(String spesialisasi) {
+        this.spesialisasi = spesialisasi;
+    }
+}
