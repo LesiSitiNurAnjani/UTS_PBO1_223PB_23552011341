@@ -34,5 +34,5 @@
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/LesiSitiNurAnjani/UTS_PBO1_223PB_23552011341">Github</a></li>
-  <li>Youtube: <a href="">Youtube</a></li>
+  <li>Youtube: <a href="">https://youtu.be/B_VjIAmFVm4?si=aoy4BywnRyLP1az8</a></li>
 </ul>
